@@ -36,9 +36,8 @@
         content: '';
         position: absolute;
         height: 100%;
-        width: 150px;
+        width: 100px;
         background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.61), transparent);
-        transform: skew(45deg);
         animation-name: glowMovement;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -47,11 +46,11 @@
 
     @keyframes glowMovement {
         0% {
-            left: 1px;
+            left: -200px;
         }
 
         100% {
-            left: 40px;
+            left: 100px;
         }
     }
 
@@ -64,4 +63,7 @@
     }
     .nav-marg{
         margin-top: 100px;
+    }
+    .hover-sel:hover{
+        background-color: rgb(89, 189, 89);
     }
