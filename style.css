@@ -6,6 +6,9 @@
 .bg-color{
     color: #fc8019;
 }
+.width{
+    width: 60px;
+}
 /* Feature animate */
  .ribone {
         position: relative;
@@ -58,4 +61,7 @@
     .colortext1{
         color: gray;
         font-size: 12px;
+    }
+    .nav-marg{
+        margin-top: 100px;
     }
